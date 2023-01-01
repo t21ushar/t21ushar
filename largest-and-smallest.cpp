@@ -5,12 +5,13 @@ int main(){
     int n;
     cin>>n;
     int num[n];
-    int smallest=num[0];
+    
     int largest=num[0];
     int i;
     for ( i =0; i<n; i++){
         cin>>num[i];     
     }
+    int smallest=num[0];
     for (i=1; i<n; i++){
         if (num[i]>largest){
             largest = num[i];      
