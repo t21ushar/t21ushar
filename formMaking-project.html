@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Creating a form making project with only html -->
+    <form>
+        <fieldset>
+            <!-- Heading of the form -->
+            <h1>College Experience Form</h1>
+            <!-- input for the name of the student -->
+            <p>
+                <label for="nameofstudent">Name:</label>
+                <input type="text" name="Name" id="nameStudent">
+            </p>
+            <!-- input for email -->
+            <p>
+                <label for="nameofstudent">Email Address:</label>
+                <input type="email" name="Email" id="emailStudent">
+            </p>
+            <!-- age of student -->
+            <p><label for="age">Age:</label>
+                <input type="number" name="age" id="age">
+            </p>
+            <!-- for creating options -->
+            <p>
+                <label for="describesYou">Which option best describes you?</label>
+                <select name="role" id="optionWhichTellsAboutYou">
+                    <option value="student">Student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Professional">Professional</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <!-- would you like to recommend the college to anyone else -->
+            <p>
+                <label for="choiceCollege">
+                    Would you like you like to recommed the college to anyone else?
+                    <!-- <input type="radio">Yes</input>
+                    <input type="radio">NO</input> -->
+                </label>
+                <label for="radioOption-1" id="yes">
+                    <input type="radio" id="forYes" name="views">Yes</input>
+                </label>
+                <label for="radioOption-2" id="no">
+                    <input type="radio" id="forNo" name="views">No</input>
+                </label>
+            </p>
+            
+              
+            <!-- about the experience of college -->
+            <p>
+                <label for="checkboxesToSelect">What do you experienced about the college</label>
+                <br>
+                <label for="input-1">
+                    <input type="checkbox">I love the college but I don't like the infrastructure</input>
+                </label>
+                <br>
+                <label for="input-1">
+                    <input type="checkbox">The syllabus of the college is pretty old</input>
+                </label>
+                <br>
+                <label for="input-1">
+                    <input type="checkbox">We can't find the jobs and placement here</input>
+                </label>
+                <br>
+                <label for="input-1">
+                    <input type="checkbox">I love the exposure we get in the college</input>
+                </label>
+                <br>
+                <label for="input-1">
+                    <input type="checkbox">I was not focused on the studies</input>
+                </label>
+                <br>
+                
+            </p>
+            <!-- Write about your thoughts -->
+            <p>
+                <label for="forYourComments">
+                    Please type for any comments and suggestions
+                </label>
+                <textarea name="comment" id="comment" placeholder="Enter your comments here">
+                </textarea>
+            </p>
+            <button type="reset" value="reset" id="reset" class="reset">Reset</button>
+            <button type="submit">submit</button>
+
+
+            
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
